@@ -11,7 +11,7 @@ body {
   width: 1202px;
   height: auto;
   margin: 10px auto 0px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 h1 {
@@ -23,14 +23,14 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 600;
   margin-left: 5%;
   margin-top: 25px;
 }
 
 h3, ul {
-  font-size: 13px;
+  font-size: 26px;
   font-weight: 300;
   margin-left: 10%;
 }
@@ -46,6 +46,15 @@ footer {
   padding-top: 30px;
 }
 
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
 
 .image1 {
   width: 1200px;
@@ -117,7 +126,7 @@ footer {
 .benefits {
   background-color: white
   height: auto;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   color: #606161;
   margin-top: 25px;
   padding-bottom: 10%;
