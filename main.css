@@ -38,12 +38,12 @@ h3, ul {
 footer {
   background-color: #121212;
   padding-bottom: 25px;
-  font-size: 24px;
+  font-size: 40px;
   font-weight: 800;
   color: #f9e42e;
   height: auto;
   text-align: center;
-  padding-top: 30px;
+
 }
 
 .clearfix:before,
@@ -115,6 +115,8 @@ footer {
   font-weight: 800;
   background: #033048;
   padding: 10px 20px 10px 20px;
+  margin-top: 30px;
+
 
 }
 
@@ -153,7 +155,10 @@ footer {
 
 .sign-up {
   background-color: #f9e42e;
-  height: 75px;
+  height: 100px;
+  /*padding-top: 40px*/
+  margin-bottom: 40px;
+  border: 1px solid black;
 }
 
 #top-page {
