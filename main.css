@@ -25,18 +25,31 @@ h2 {
   font-size: 20px;
   font-weight: 600;
   margin-left: 5%;
+  margin-top: 25px;
 }
 
-h3 {
+h3, ul {
   font-size: 13px;
   font-weight: 300;
   margin-left: 10%;
 }
 
+footer {
+  background-color: #121212;
+  padding-bottom: 25px;
+  font-size: 24px;
+  font-weight: 800;
+  color: #f9e42e;
+  height: auto;
+  text-align: center;
+  padding-top: 30px;
+
+}
+
 
 .image {
-  width: 1200px;
-  height: 700px;
+  width: auto;
+  height: auto;
   margin: 0px;
   }
 
@@ -52,7 +65,7 @@ h3 {
   text-align: center;
 }
 
-.button {
+.button1 {
   width: 150px;
   margin: auto;
   text-align: center;
@@ -64,10 +77,28 @@ h3 {
   padding: 10px 20px 10px 20px;
 
 }
-.button:hover {
+
+.button1:hover {
   background: #033048;
   color: white;
-  text-decoration: none;
+}
+
+.button2 {
+  width: 150px;
+  margin: auto;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  font-weight: 800;
+  background: #033048;
+  padding: 10px 20px 10px 20px;
+
+}
+
+.button2:hover {
+  background: #f9e42e;
+  color: black;
 }
 
 .benefits {
@@ -75,4 +106,55 @@ h3 {
   height: auto;
   border: 1px solid black;
   color: #606161;
+  margin-top: 25px;
+  padding-bottom: 10%;
+}
+
+.testimonial {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  width: 37%;
+  margin: auto;
+
+}
+
+.author {
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+  padding-left: 55%;
+
+}
+
+.sign-up {
+  background-color: #f9e42e;
+  height: 75px;
+}
+
+#copyright {
+  color: white;
+  text-align: center;
+  font-size: 9px;
+  font-weight: 600;
+}
+
+#twitter {
+  float: left;
+  width: 43px;
+  height: 37px;
+  padding: 2 0 0 2;
+  margin-left: 45%;
+
+}
+
+#facebook {
+  float: right;
+  width: 43px;
+  height: 37px;
+  padding-right: 13px;
+  padding-left: 13px;
+  margin-right: 45%;
+
 }
