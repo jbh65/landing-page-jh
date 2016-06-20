@@ -8,7 +8,6 @@ html {
 }
 
 body {
-
   width: 1202px;
   height: auto;
   margin: 10px auto 0px;
@@ -19,6 +18,8 @@ h1 {
   font-size: 24px;
   font-weight: 800;
   margin-left: 5%;
+  padding-top: 15%;
+  color: white;
 }
 
 h2 {
@@ -46,22 +47,35 @@ footer {
 }
 
 
-.image {
-  width: auto;
-  height: auto;
+.image1 {
+  width: 1200px;
+  height: 700px;
   margin: 0px;
+  background-image: url(./images/header_bg.jpg);
+  background-size: cover;
   }
+
+  .image2 {
+    width: 1200px;
+    height: 384px;
+    margin: 0px;
+    background-image: url(./images/testimonial_bg.jpg);
+    background-size: cover;
+    }
+
 
 .tagline {
   font-size: 24px;
   font-weight: 600;
   text-align: center;
+  color: white;
 }
 
 .tagline2{
   font-size: 24px;
   font-weight: 600;
   text-align: center;
+  color: white;
 }
 
 .button1 {
@@ -129,6 +143,12 @@ footer {
   background-color: #f9e42e;
   height: 75px;
 }
+
+#top-page {
+  margin-top:0px;
+}
+
+
 
 #copyright {
   color: white;
