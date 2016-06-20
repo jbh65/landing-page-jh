@@ -18,7 +18,7 @@ h1 {
   font-size: 24px;
   font-weight: 800;
   margin-left: 5%;
-  padding-top: 15%;
+  padding-top: 200px;
   color: white;
 }
 
@@ -130,6 +130,8 @@ footer {
   text-align: center;
   width: 37%;
   margin: auto;
+  color: white;
+  padding-top: 100px;
 }
 
 .author {
@@ -137,6 +139,7 @@ footer {
   font-weight: 600;
   font-style: italic;
   padding-left: 55%;
+  color: white;
 }
 
 .sign-up {
