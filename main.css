@@ -1,0 +1,78 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+}
+
+body {
+
+  width: 1202px;
+  height: auto;
+  margin: 10px auto 0px;
+  border: 1px solid black;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 800;
+  margin-left: 5%;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 5%;
+}
+
+h3 {
+  font-size: 13px;
+  font-weight: 300;
+  margin-left: 10%;
+}
+
+
+.image {
+  width: 1200px;
+  height: 700px;
+  margin: 0px;
+  }
+
+.tagline {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.tagline2{
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.button {
+  width: 150px;
+  margin: auto;
+  text-align: center;
+  border-radius: 5px;
+  color: #033048;
+  font-size: 14px;
+  font-weight: 800;
+  background: #f9e42e;
+  padding: 10px 20px 10px 20px;
+
+}
+.button:hover {
+  background: #033048;
+  color: white;
+  text-decoration: none;
+}
+
+.benefits {
+  background-color: white
+  height: auto;
+  border: 1px solid black;
+  color: #606161;
+}
