@@ -45,6 +45,8 @@ body {
   height: auto;
   margin: 10px auto 0px;
   border: 1px solid black;
+  background-color: #f0efef;
+  color: #033048;
 }
 
 footer {
