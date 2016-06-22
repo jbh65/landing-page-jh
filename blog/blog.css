@@ -38,6 +38,11 @@ header {
 
 h2 {
   font-weight: 600;
+<<<<<<< HEAD
+=======
+  font-size: 45px;
+  text-align: left;
+>>>>>>> master
 }
 
 body {
@@ -45,6 +50,11 @@ body {
   height: auto;
   margin: 10px auto 0px;
   border: 1px solid black;
+<<<<<<< HEAD
+=======
+  background-color: #f0efef;
+  color: #033048;
+>>>>>>> master
 }
 
 footer {
@@ -62,6 +72,7 @@ footer {
 ** BASE CLASS STYLES
 **************************/
 
+<<<<<<< HEAD
 .blogpost{
   border: 1px solid black;
   float: left;
@@ -70,19 +81,56 @@ footer {
   padding: 0px 30px 0px 30px;
   margin-left: 10%;
 
+=======
+.blogpost {
+  border: 1px solid black;
+  float: left;
+  width: 63.5%;
+  height: auto;
+  padding: 0px 30px 0px 30px;
+  margin-left: 8%;
+  border-bottom: 3px solid #033048;
+}
+
+.blogimage {
+  text-align: center;
+  width: 700px;
+  height: 280px;
+}
+
+.blogtext {
+  width: 700px;
+  height: auto;
+}
+
+.blog-read-more{
+  text-align: right;
+  font-size: 20px;
+  font-weight:800;
+>>>>>>> master
 }
 
 .sidebar {
     border: 1px solid black;
     float:right;
+<<<<<<< HEAD
     width: 15%;
     height: auto;
     margin-right: 10%;
+=======
+    width: 17%;
+    height: auto;
+    margin-right: 8%;
+>>>>>>> master
 }
 
 .sidebar-title {
   text-align: center;
+<<<<<<< HEAD
   font-size: 25px;
+=======
+  font-size: 23px;
+>>>>>>> master
   font-weight: 800;
 }
 
@@ -98,11 +146,22 @@ footer {
     width: 80%;
     margin-right: 10%;
     margin-left: 10%;
+<<<<<<< HEAD
     height: 200px;
     text-align: center;
 }
 
 
+=======
+    height: 375px;
+    text-align: center;
+    background: url(./images/ad-unit.png) no-repeat;
+    background-size: cover;
+}
+
+
+
+>>>>>>> master
 /*************************
 ** BASE ID STYLES
 **************************/

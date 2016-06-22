@@ -121,6 +121,7 @@ footer {
 .button2:hover {
   background: #f9e42e;
   color: black;
+  border: 1px solid black;
 }
 
 .benefits {
@@ -159,20 +160,14 @@ footer {
   border: 1px solid black;
 }
 
-#top-page {
-  margin-top:0px;
-}
-
-
-
-#copyright {
+.copyright {
   color: white;
   text-align: center;
   font-size: 9px;
   font-weight: 600;
 }
 
-#twitter {
+.twitter {
   float: left;
   width: 43px;
   height: 37px;
@@ -180,11 +175,15 @@ footer {
   margin-left: 45%;
 }
 
-#facebook {
+.facebook {
   float: right;
   width: 43px;
   height: 37px;
   padding-right: 13px;
   padding-left: 13px;
   margin-right: 45%;
+}
+
+#top-page {
+  margin-top:0px;
 }
