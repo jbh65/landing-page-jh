@@ -69,15 +69,27 @@ footer {
 .blogpost {
   border: 1px solid black;
   float: left;
-  width: 67%;
+  width: 63.5%;
   height: auto;
   padding: 0px 30px 0px 30px;
   margin-left: 8%;
-
+  border-bottom: 3px solid #033048;
 }
 
 .blogimage {
+  text-align: center;
+  width: 700px;
+  height: 280px;
+}
 
+.blogtext {
+  width: 700px;
+  height: auto;
+}
+
+.blog-read-more{
+  text-align: right;
+  font-size:
 }
 
 .sidebar {
@@ -101,7 +113,7 @@ footer {
 }
 
 .ad-space {
-    /*border: 1px solid black;*/
+    border: 1px solid black;
     float:right;
     width: 80%;
     margin-right: 10%;
@@ -109,7 +121,7 @@ footer {
     height: 375px;
     text-align: center;
     background: url(./images/ad-unit.png) no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 
