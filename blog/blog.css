@@ -26,7 +26,7 @@ html {
 }
 
 header {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   width: 1202px;
   height: auto;
   background-color: #033048;
@@ -46,7 +46,7 @@ body {
   width: 1202px;
   height: auto;
   margin: 10px auto 0px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   background-color: #f0efef;
   color: #033048;
 }
@@ -67,7 +67,7 @@ footer {
 **************************/
 
 .blogpost {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   float: left;
   width: 63.5%;
   height: auto;
@@ -94,7 +94,7 @@ footer {
 }
 
 .sidebar {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     float:right;
     width: 17%;
     height: auto;
@@ -123,6 +123,55 @@ footer {
     text-align: center;
     background: url(./images/ad-unit.png) no-repeat;
     background-size: cover;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.twitter {
+  float: left;
+  width: 43px;
+  height: 37px;
+  padding: 2 0 0 2;
+  margin-left: 45%;
+}
+
+.facebook {
+  float: right;
+  width: 43px;
+  height: 37px;
+  padding-right: 13px;
+  padding-left: 13px;
+  margin-right: 45%;
+}
+
+.button2 {
+  width: 150px;
+  margin: auto;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  font-weight: 800;
+  background: #033048;
+  padding: 10px 20px 10px 20px;
+
+}
+
+.button2:hover {
+  background: #f9e42e;
+  color: black;
+  border: 1px solid black;
+}
+
+.sign-up {
+  background-color: #f9e42e;
+  height: 75px;
+  margin-top: 30px;
 }
 
 
