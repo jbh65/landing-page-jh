@@ -30,10 +30,8 @@ header {
   width: 1202px;
   height: auto;
   background-color: #033048;
-  color: white;
-  font-size: 40px;
-  font-weight: 800;
-  padding-left: 15%;
+  /*padding-left: 15%;*/
+
 }
 
 h2 {
@@ -65,6 +63,26 @@ footer {
 /*************************
 ** BASE CLASS STYLES
 **************************/
+
+.title {
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+  float: left;
+  padding-left: 15%;
+  /*border: 1px solid white;*/
+}
+.nav-box {
+  float: right;
+  padding-right: 15%;
+  padding-top: 55px;
+  /*border: 1px solid white*/
+}
+.nav {
+  color: #f9e42e;
+  font-size: 20px;
+  padding: 0px 15px 0px 15px;
+}
 
 .blogpost {
   /*border: 1px solid black;*/
